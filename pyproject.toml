@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "opta_sd"
+version = "0.1.1"
+description = "Python client for the OPTA Sports Data Soccer API"
+authors = ["Mohaned Awad <mohandmohamed104@gmail.com>"]
+readme = "readme.md"
+license = "MIT"
+homepage = "https://github.com/MohanedAwad/opta_sd"
+repository = "https://github.com/MohanedAwad/opta_sd"
+packages = [{include = "opta_sd"}]
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+lxml = ">=6.0.2,<7.0.0"
+httpx = ">=0.28.1,<0.29.0"
+python-dotenv = ">=1.0.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
