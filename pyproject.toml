@@ -1,0 +1,18 @@
+[project]
+name = "opta-sd-py"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Mohaned",email = "mohandmohamed104@gmail.com"}
+]
+requires-python = ">=3.11"
+dependencies = [
+    "lxml (>=6.0.2,<7.0.0)",
+    "httpx (>=0.28.1,<0.29.0)",
+    "dotenv (>=0.9.9,<0.10.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
