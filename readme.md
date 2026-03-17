@@ -10,7 +10,7 @@ Python client for the **OPTA Sports Data Soccer API (OPTA SDAPI)**.
 ## Installation
 
 ```bash
-pip install optasd
+pip install opta-sd
 ```
 
 Or from source:
